@@ -204,8 +204,7 @@ public class WifiDAO {
                 double lnt2 = Double.parseDouble(rs.getString("LNT"));
                 String distance = String
                                     .valueOf(getDistance(lat,lnt ,lat2,lnt2))
-                                    .substring(0,6)
-                        ;
+                                    .substring(0,6);
 
 
                 WifiVO vo = new WifiVO(

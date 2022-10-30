@@ -9,22 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b0b66f9-b5e3-4b18-bc46-0d08339d417d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mariadb_java_client_3_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mariadb_java_client_3_0_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="1b0b66f9-b5e3-4b18-bc46-0d08339d417d" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MyHistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MyHistoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/WifiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/WifiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/WifiDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/WifiDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/GetJsonData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/GetJsonData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vo/HistoryVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vo/HistoryVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vo/WifiVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vo/WifiVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/historyDelete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/historyDelete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/historyView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/historyView.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/wifiGet.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/wifiGet.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -214,8 +202,17 @@
       <workItem from="1667060203229" duration="202000" />
       <workItem from="1667060550119" duration="234000" />
       <workItem from="1667104876021" duration="7395000" />
-      <workItem from="1667112454418" duration="3007000" />
+      <workItem from="1667112454418" duration="3128000" />
+      <workItem from="1667116625293" duration="18000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1667116517768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667116517768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +228,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
