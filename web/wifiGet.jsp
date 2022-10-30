@@ -14,7 +14,7 @@
     int result = wifiDAO.getData();
 
     if(result!=-1){
-        System.out.println("ㅇ성공");
+        System.out.println("성공");
     } else {
         System.out.println("실패");
     }
@@ -22,5 +22,15 @@
     System.out.println(result);
 
 %>
+
+<div class="col-md-12" style="text-align: center;">
+    <h2>WIFI 정보를 정상적으로 저장하였습니다.</h2>
+    <div>
+        <a href="index.jsp" style="text-align: center">홈 으로 가기</a>
+    </div>
+</div>
+
 </body>
+
+
 </html>

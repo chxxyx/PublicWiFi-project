@@ -1,16 +1,12 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: seochaeyeong
-  Date: 2022/10/27
-  Time: 3:08 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
-</html>
+<%@ page contentType="text/html;charset=UTF-8" language="java"
+         pageEncoding="UTF-8" %>
+<%@ page import="dao.WifiDAO" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<jsp:useBean id="dao" class="dao.WifiDAO"/>
+
+<%
+   int id = Integer.parseInt(request.getParameter("id"));
+   dao.deleteLocation(id);
+%>
+<c:redirect url="${pageContext.request.contextPath}/historyView.jsp"></c:redirect>
