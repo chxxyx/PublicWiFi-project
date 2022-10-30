@@ -7,7 +7,7 @@
 공공 데이터 자원을 끌어와 서비스 하고자 하는 데이터로 마이그레션하여 원하는 형태로 출력, 사용자의 위치 히스토리에 대한 데이터베이스 저장 기능 및 출력 기능 구현
 
 ### 개발 환경
-IntelliJ (Ultimate Edition)
-Java (corretto-1.8)
-MariaDB
+IntelliJ (Ultimate Edition),
+Java (corretto-1.8),
+MariaDB,
 Apache Tomcat 8.5.83
